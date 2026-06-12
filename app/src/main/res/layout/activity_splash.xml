@@ -35,7 +35,7 @@
             android:layout_height="120dp"
             android:src="@drawable/ic_zeno_logo"
             android:contentDescription="@string/app_name"
-            android:alpha="0f" />
+            android:alpha="0" />
 
         <TextView
             android:id="@+id/tvAppName"
@@ -47,7 +47,7 @@
             android:textSize="36sp"
             android:fontFamily="@font/inter_bold"
             android:letterSpacing="0.02"
-            android:alpha="0f" />
+            android:alpha="0" />
 
     </LinearLayout>
 
@@ -61,7 +61,7 @@
         android:textSize="15sp"
         android:fontFamily="@font/inter_regular"
         android:letterSpacing="0.05"
-        android:alpha="0f"
+        android:alpha="0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logoContainer" />
