@@ -17,7 +17,7 @@ import com.ngai.zenoai.viewmodel.WebViewError
 class ZenoWebViewClient(
     private val viewModel: MainViewModel,
     private val onExternalLink: (String) -> Unit
-) : WebViewClientCompat() {
+) : WebViewClient() {
 
     override fun onPageStarted(view: WebView, url: String, favicon: Bitmap?) {
         super.onPageStarted(view, url, favicon)
