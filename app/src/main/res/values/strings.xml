@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZenoAi</string>
+    <string name="splash_tagline">Your AI Assistant</string>
+
+    <!-- Navigation -->
+    <string name="exit_dialog_title">Exit ZenoAi?</string>
+    <string name="exit_dialog_message">Are you sure you want to exit?</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="retry">Try Again</string>
+    <string name="reload">Reload</string>
+    <string name="go_home">Go Home</string>
+    <string name="load_cached">Load Cached Page</string>
+    <string name="allow">Allow</string>
+    <string name="later">Later</string>
+    <string name="share_via">Share via…</string>
+
+    <!-- Errors -->
+    <string name="error_no_internet_title">No Internet Connection</string>
+    <string name="error_no_internet_message">Please check your connection and try again. You can also load a cached version of the page.</string>
+    <string name="error_server_title">Service Unavailable</string>
+    <string name="error_server_message">ZenoAi is temporarily unavailable. Please try again in a few moments.</string>
+    <string name="error_ssl_title">Connection Not Secure</string>
+    <string name="error_ssl_message">ZenoAi could not establish a secure connection. Your connection may be monitored or your device date/time may be incorrect.</string>
+    <string name="error_ssl_warning">⚠ Security Certificate Error</string>
+    <string name="error_general_title">Something Went Wrong</string>
+    <string name="error_general_message">An unexpected error occurred. Please try again.</string>
+    <string name="error_not_found_title">Page Not Found</string>
+    <string name="error_not_found_message">The page you\'re looking for doesn\'t exist or has been moved.</string>
+    <string name="error_still_offline">You\'re still offline. Please check your connection.</string>
+    <string name="error_opening_browser">Could not open browser</string>
+
+    <!-- Permissions -->
+    <string name="permission_denied">Permission denied</string>
+    <string name="notification_permission_title">Stay Updated</string>
+    <string name="notification_permission_message">Allow ZenoAi to send you notifications to stay informed about important updates and responses.</string>
+
+    <!-- Downloads -->
+    <string name="downloading">Downloading…</string>
+    <string name="download_started">Download started</string>
+    <string name="download_complete">Download complete</string>
+    <string name="download_failed">Download failed</string>
+
+    <!-- Notification channels -->
+    <string name="default_notification_channel_id">zenoai_general</string>
+    <string name="channel_general_name">General</string>
+    <string name="channel_general_description">General notifications from ZenoAi</string>
+    <string name="channel_alerts_name">Alerts</string>
+    <string name="channel_alerts_description">Important alerts from ZenoAi</string>
+
+    <!-- Connectivity -->
+    <string name="connected">Connected</string>
+    <string name="offline">No internet connection</string>
+</resources>

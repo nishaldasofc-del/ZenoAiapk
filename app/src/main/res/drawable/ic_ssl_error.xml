@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <path android:fillColor="#FDECEA"
+        android:pathData="M48,8 A40,40 0 1,1 47.99,8 Z" />
+
+    <!-- Shield outline -->
+    <path android:strokeColor="#B00020" android:strokeWidth="3.5" android:fillColor="#00000000"
+        android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M48,22 L68,30 L68,52 Q68,64 48,74 Q28,64 28,52 L28,30 Z" />
+
+    <!-- Lock body -->
+    <path android:fillColor="#B00020"
+        android:pathData="M40,50 L56,50 L56,62 L40,62 Z" />
+    <path android:strokeColor="#B00020" android:strokeWidth="3.5" android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:pathData="M43,50 Q43,44 48,44 Q53,44 53,50" />
+
+    <!-- Keyhole -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M48,53 A2.5,2.5 0 1,1 47.99,53 Z" />
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M46.5,55.5 L49.5,55.5 L50.5,60 L45.5,60 Z" />
+
+</vector>

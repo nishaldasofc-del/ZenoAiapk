@@ -1,0 +1,21 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Sensitive — never commit real google-services.json
+# app/google-services.json
+
+# Keystore files
+*.jks
+*.keystore
+keystore.properties
+
+# Generated
+/app/build

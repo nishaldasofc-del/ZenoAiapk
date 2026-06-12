@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <path android:fillColor="#EEF0FF"
+        android:pathData="M48,8 A40,40 0 1,1 47.99,8 Z" />
+
+    <!-- Server rack outline -->
+    <path android:strokeColor="#6C63FF" android:strokeWidth="3" android:fillColor="#00000000"
+        android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M28,32 L68,32 L68,44 L28,44 Z" />
+    <path android:strokeColor="#6C63FF" android:strokeWidth="3" android:fillColor="#00000000"
+        android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M28,46 L68,46 L68,58 L28,58 Z" />
+
+    <!-- LED dots -->
+    <path android:fillColor="#6C63FF" android:pathData="M33,38 A2.5,2.5 0 1,1 32.99,38 Z" />
+    <path android:fillColor="#EF5350" android:pathData="M33,52 A2.5,2.5 0 1,1 32.99,52 Z" />
+
+    <!-- Warning triangle -->
+    <path android:fillColor="#FFA726" android:strokeColor="#00000000"
+        android:pathData="M48,64 L58,80 L38,80 Z" />
+    <path android:fillColor="#FFFFFF" android:strokeColor="#00000000"
+        android:pathData="M47,70 L49,70 L49,76 L47,76 Z" />
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M48,77.5 A1.5,1.5 0 1,1 47.99,77.5 Z" />
+
+</vector>

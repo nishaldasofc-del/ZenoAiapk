@@ -1,0 +1,43 @@
+{
+  "_PLACEHOLDER_": true,
+  "_INSTRUCTIONS_": [
+    "REPLACE THIS FILE with your actual google-services.json from Firebase Console.",
+    "",
+    "Steps:",
+    "1. Go to https://console.firebase.google.com/",
+    "2. Select your project (or create one named 'ZenoAi')",
+    "3. Click the Android icon to add an Android app",
+    "4. Package name: com.ngai.zenoai",
+    "5. Download google-services.json",
+    "6. Replace this file with the downloaded one",
+    "7. Enable Firebase Cloud Messaging in the Firebase Console",
+    "",
+    "Without a valid google-services.json the app will NOT compile."
+  ],
+  "project_info": {
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "project_id": "your-zenoai-project",
+    "storage_bucket": "your-zenoai-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:YOUR_PROJECT_NUMBER:android:XXXXXXXXXXXXXXXX",
+        "android_client_info": {
+          "package_name": "com.ngai.zenoai"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "YOUR_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

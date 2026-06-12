@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Back up user preferences -->
+    <include domain="sharedpref" path="zenoai_prefs.xml" />
+    <!-- Exclude sensitive or large data -->
+    <exclude domain="database" path="." />
+    <exclude domain="cache" path="." />
+</full-backup-content>

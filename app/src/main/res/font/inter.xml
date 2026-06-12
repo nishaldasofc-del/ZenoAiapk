@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Font family declarations for Inter.
+
+    SETUP INSTRUCTIONS:
+    1. Download Inter from https://fonts.google.com/specimen/Inter
+    2. Place these files in app/src/main/res/font/:
+       - inter_regular.ttf   (weight 400)
+       - inter_medium.ttf    (weight 500)
+       - inter_bold.ttf      (weight 700)
+
+    Alternatively, use the Downloadable Fonts feature in Android Studio:
+    Right-click res/font → New → Font resource file → search "Inter"
+-->
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="400"
+        app:font="@font/inter_regular" />
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="500"
+        app:font="@font/inter_medium" />
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="700"
+        app:font="@font/inter_bold" />
+</font-family>
